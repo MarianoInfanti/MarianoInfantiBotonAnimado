@@ -1,0 +1,37 @@
+.boton{
+    color: white;
+    display: inline-flex;
+    width: 210px;
+    height: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 3s ease-in all;
+    background-color: rgb(74, 74, 201);
+    
+}
+.boton span{
+    transition: .4s ease-in-out all;
+    position: relative;
+    right: 6%;
+    
+}
+
+.icono{
+    text-decoration:none;
+    display: flex;
+    position: relative;
+    left: -10%;
+    transition: .4s ease-in-out;
+    color:rgb(74, 74, 201);
+}
+.boton:hover .icono{
+ left: 130px;
+ color: white;
+}
+.boton:hover span{
+   right: 65px;
+}
